@@ -1,0 +1,162 @@
+*
+{
+margin: 0;
+padding: 0;
+background: rgb(255, 122, 13);
+}
+.Contenedor
+{
+    width: 80%;
+    height: 400%;
+    margin: auto;
+    border: 10px solid rgb(252, 255, 53);
+    
+}
+#Titulo 
+{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: white;
+    margin-top: 5px;
+}
+#Parrafo1
+{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#Muestra1
+{
+    display: flex;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: white;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+#Video
+{
+    display: flex;
+    width:610px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border: none;
+}
+#Des
+{
+    position: absolute;
+    transform: translate3d(-50%,-50%,0);
+    left: 10%;
+    top: 50%;
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 17px;
+    margin-left: 706px;
+    margin-top: 290px;
+    border: none;
+    background: transparent;
+}
+#Menu
+{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: white;
+    margin: 10PX;
+    border: 5px solid rgb(252, 255, 53);
+    width:35%;
+    height: 535px;
+    margin-left: 35px;
+    margin-top: -379px;
+}
+#Parrafo2
+{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.HiperLink1
+{
+    background-color: yellow;
+    width:150px;
+    height: 150px;
+    background-image: url("keyboard_piano_instrument_music_icon_229102.png");
+    background-size: cover; 
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+    .HiperLink1:hover
+    {
+        background-color: bisque;
+        box-shadow: 0 0 15px bisque;
+    }
+#Parrafo3
+{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.HiperLink2
+{
+    background-color: yellow;
+    width:150px;
+    height: 150px;
+        background-image: url("percussion_drum_musical_instrument_icon_123839.png");
+    background-size: cover; 
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+    .HiperLink2:hover
+    {
+        background-color: bisque;
+        box-shadow: 0 0 15px bisque;
+    }
+#Pie-Pagina
+{
+    margin: 10PX;
+    border: 5px solid rgb(252, 255, 53);
+    width:92%;
+    height: 65px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+#Info
+{
+    
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+}
+.link-F
+{
+    display: flex;
+font-family: "Comic Sans MS";
+color: yellow;       
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;  
+font-size: 20px;
+margin-left: 670px;
+margin-top: -27px;
+
+}
+
+.link-F:hover 
+{  
+        color: white;
+        text-shadow: 0 0 5px white;
+}
